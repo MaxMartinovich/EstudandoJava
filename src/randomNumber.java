@@ -7,5 +7,15 @@ public class randomNumber {
             number = random.nextInt(1,7);
 
             System.out.println(number);
+
+            boolean isHeads;
+
+            isHeads = random.nextBoolean();
+
+            if(isHeads) {
+                System.out.println("HEADS");
+            } else{
+                System.out.println("TAILS");
+            }
     }
 }
